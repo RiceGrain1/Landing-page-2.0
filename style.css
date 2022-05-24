@@ -63,6 +63,21 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 8px;
+    cursor: pointer;
+}
+
+.signup {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #053074;
+    transition: 10ms;
 }
 
 .middle-large-text {
@@ -113,7 +128,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    
 }
 
 .middle-items {
